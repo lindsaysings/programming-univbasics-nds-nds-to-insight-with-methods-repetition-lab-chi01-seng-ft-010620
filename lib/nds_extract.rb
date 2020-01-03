@@ -45,7 +45,7 @@ end
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
 #end
-
+=begin
 def total_gross(source)
 grand_total = 0
 i = 0
@@ -55,5 +55,5 @@ while i < list_of_directors(source).length do
 end
 p grand_total
 end
-
+=end
 
