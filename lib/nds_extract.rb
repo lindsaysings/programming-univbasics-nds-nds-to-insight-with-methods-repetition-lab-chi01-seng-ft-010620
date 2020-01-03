@@ -34,7 +34,7 @@ def list_of_directors(source)
   p arr
 end
 
-def gross_total(source)
+def total_gross(source)
   p value = directors_totals(source)[list_of_directors(source)]
   grand_total = 0
   director_index = 0
